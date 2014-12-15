@@ -5,6 +5,7 @@ import sys
 
 class Motifs:
      '''
+     Changes!!!
      Motifs is a class for storing all the different types of motifs that appear in a problem. For example a tetraloop with sequence A(GAGA)U would be a motif.  Each motif is associated with a index number.  This index number is where it sequence is stored in Motifs.seq.  Likewise with Motifs.type, Motifs.msrmtsContaining, Motifs.motifInSet.  MotifTypes is a dictionary of dictionaries for look up a index number based on sequence.
      '''
      def __init__(self,motsConsid={'loops':True,'x2wayjunctions':True,'x3wayjunctions':True,'x4wayjunctions':True,'bulges':True,'pairs':False,'sstrand':False,'dangles':False}):
